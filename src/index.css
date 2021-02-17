@@ -1,0 +1,40 @@
+body {
+  margin: 25px;
+}
+
+.updateTurn {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.endGame {
+  margin-bottom: 10px;
+  text-align: center;
+  color: red;
+}
+
+.singleBox {
+  text-align: center;
+  font-size: 40px;
+  background: none;
+  border: 0.5px solid black;
+  float: left;
+  height: 70px;
+  width: 70px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.resetButton {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+}
